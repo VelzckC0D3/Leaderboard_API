@@ -7,10 +7,17 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0;
   padding: 0;
+  background:
+    linear-gradient(
+      360deg,
+      hsla(197, 14%, 57%, 1) 0%,
+      hsla(192, 17%, 94%, 1) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 h2 {
@@ -39,21 +46,6 @@ button:active {
   transition: 30ms all ease-in-out;
 }
 
-.main {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background:
-    linear-gradient(
-      360deg,
-      hsla(197, 14%, 57%, 1) 0%,
-      hsla(192, 17%, 94%, 1) 100%
-    );
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .title {
   padding: 0 0 0 2rem;
 }
@@ -67,6 +59,7 @@ button:active {
   background-color: white;
   border-radius: 15px;
   margin: 6.5vh 0;
+  align-self: center;
   box-shadow: -8px 10px 26px -8px rgba(0, 0, 0, 0.75);
 }
 
