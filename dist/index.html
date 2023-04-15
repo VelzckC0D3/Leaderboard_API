@@ -1,9 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Leaderboard introducing APIs</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="bundle.js"></script></head>
-  <body>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="bundle.js"></script></head>
+<body>
+    <h1 class="title">Velzck's LeaderBoard</h1>
+    <div class="boardCont">
+      <div class="recentCont">
+        <div class="recentTop">
+          <h2 class="recentTitle">recent scores</h1>
+          <button class="recentButton" type="button">refresh <img src="assets/reload.svg" alt="" class="reloadIcon"></button>
+        </div>
+        <ul class="recentScore">
+  
+      </ul>
+      </div>
+      <div class="addCont">
+        <form id="addScore" class="form">
+          <h2 class="addTitle">Add your score</h2>
+          <div class="inputs">
+          <input class="input" type="text" id="name" placeholder="name" required /><br />
+          <input class="input" type="text" id="score" placeholder="score" required /><br />
+          </div>
+          <button type="button" class="submitButton">submit</button>
+      </form>
+      </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
 </html>
