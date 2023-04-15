@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Leaderboard introducing APIs',
+      template: './src/index.html',
     }),
   ],
   devServer: {
