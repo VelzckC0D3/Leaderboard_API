@@ -1,7 +1,7 @@
 import './style.css';
 
 // Generate HTML
-function component() {
+const component = () => {
   const element = document.createElement('section');
 
   // Lodash, now imported by this script
@@ -32,7 +32,7 @@ function component() {
   element.classList.add('main');
 
   return element;
-}
+};
 
 document.body.appendChild(component());
 
