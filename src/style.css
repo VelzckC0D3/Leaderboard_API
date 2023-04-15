@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -7,10 +13,45 @@ body {
   padding: 0;
 }
 
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  -webkit-text-stroke: 0.3px;
+  border-radius: 0 0 5px 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem 1rem;
+  transition: 200ms all ease-in-out;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+button:active {
+  background-color: rgba(0, 0, 0, 0.493);
+  transition: 30ms all ease-in-out;
+}
+
 .main {
   width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  background:
+    linear-gradient(
+      360deg,
+      hsla(197, 14%, 57%, 1) 0%,
+      hsla(192, 17%, 94%, 1) 100%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -21,7 +62,12 @@ body {
   display: flex;
   flex-direction: row;
   gap: 2.5rem;
-  align-self: center;
+  border: 3px solid black;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  margin: 6.5vh 0;
+  box-shadow: -8px 10px 26px -8px rgba(0, 0, 0, 0.75);
 }
 
 /* RECENT SCORES */
@@ -42,9 +88,10 @@ body {
 }
 
 .recentScore {
-  border: 3px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.199);
   padding: 0 0.5rem;
   list-style: none;
+  border-radius: 15px 0;
 }
 
 .score {
@@ -70,7 +117,8 @@ body {
 }
 
 .input {
-  margin: 0 0 1rem;
+  margin: 0 0 7px;
+  width: 95.5%;
 }
 
 #submitButton {

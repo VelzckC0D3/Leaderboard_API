@@ -11,7 +11,7 @@ const component = () => {
     <div class="recentCont">
       <div class="recentTop">
         <h2 class="recentTitle">recent scores</h1>
-          <button class="recentButton" type="button">refresh</button>
+        <button class="recentButton" type="button">refresh <img src="assets/reload.svg" alt="" class="reloadIcon"></button>
       </div>
       <ul class="recentScore">
 
