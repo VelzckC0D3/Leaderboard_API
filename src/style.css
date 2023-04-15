@@ -1,3 +1,81 @@
-.hello {
-  color: red;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  padding: 0 0 0 2rem;
+}
+
+.boardCont {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-self: center;
+}
+
+/* RECENT SCORES */
+
+.recentCont {
+  width: 20rem;
+}
+
+.recentTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recentButton {
+  height: 100%;
+}
+
+.recentScore {
+  border: 3px solid black;
+  padding: 0 0.5rem;
+  list-style: none;
+}
+
+.score {
+  padding: 0;
+  margin: 5px 0;
+}
+
+.score:nth-child(even) {
+  background-color: rgb(224, 224, 224);
+}
+
+/* RECENT SCORES */
+
+/* ADD YOUR SCORE */
+
+#addScore {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  margin: 1rem 0 0 0;
+}
+
+.input {
+  margin: 0 0 1rem;
+}
+
+#submitButton {
+  align-self: flex-end;
+  width: 30%;
+}
+
+/* ADD YOUR SCORE */
