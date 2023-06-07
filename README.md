@@ -1,5 +1,7 @@
 <a name="readme-top"></a>
-![onlyText](https://user-images.githubusercontent.com/92229666/221316081-fb9e0b88-a571-4414-baa7-76d8d411c181.gif)
+<div align="center">
+  <img src="https://github.com/VelzckC0D3/SQL_Database/assets/92229666/64c8d8a7-b625-4a25-847a-ea02e00df2f4" alt="Sin título-1">
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -73,7 +75,10 @@ Introducing Javascript app featuring the use of API's.
 
 - _You can visit the live demo [here](https://velzck-leaderboard.netlify.app/)_
  
-![image](https://user-images.githubusercontent.com/92229666/231618314-725dec9d-1239-4533-bd27-b8fbfe1a79e3.png)
+ <div align="center">
+ 
+![image](https://github.com/VelzckC0D3/Leaderboard_API/assets/92229666/a2ea9cb2-cf1e-482b-93c6-4a3703845756)
+  </div>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
